@@ -1,0 +1,12 @@
+#major{min-height: 600px;_height:600px;background-color: #fff;}
+.major{width: 1200px;min-height: 600px;_height:600px;margin: 0 auto;background-color: #fff;}
+.major h2{height: 50px;line-height: 50px;font-size: 20px;color: #666666;background-color:#D3E4F0 ;padding-left: 20px;font-weight: 900;}
+.goodslist{background-color: #fff;}
+.goodslist li{float: left;width: 290px;height: 450px;background-color: #F1F1F1;margin: 5px;overflow: hidden;}
+.goodslist li img{width: 270px;height: 280px;margin-top: 10px;margin-left: 10px;float: left;}
+.goodslist li p{float: left;font-size: 22px;margin-left: 20px;margin-top: 10px;height: 30px;line-height: 30px;width: 300px;}
+.goodslist li p .price{color: Red;}
+.goodslist li p .nmqian{float: left;}
+.goodslist li p .nm{color:#13AF26;width: 120px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;float: left;}
+.goodslist li .delshoucang{font-size: 24px;float: left;color:#A71D5D;margin-left: 90px;margin-top: 16px;}
+.goodslist li .delshoucang:hover{color: #0066FF;}

@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<script src="js/jquery-2.2.4.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_1mvik7n8tj7cik9/iconfont.css"/>
+		<script src="js/detail.js"></script>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2017-4-5
+        	描述：sitenav
+       -->
+		<div id="main" class="woman">
+			<div id="sitenav">
+				<div class="area">
+					<div class="login-info" id="js_login_info">
+						<div class="say-hi">
+							Hi&nbsp;,&nbsp;欢迎来到衣联
+						</div>
+						<div class="login-link-wrap">
+							
+							<span><a href="javascript:;" rel="nofollow" target="_blank" class="login1"></a></span>
+							<span class="span-line">丨</span>
+							<a href="javascript:;" rel="nofollow" target="_blank" class="register1"></a>
+
+						</div>
+					</div>
+					<ul class="ely-sn-menuwrap">
+						<li class="item menu q-myeelly">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank">我的衣联<span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<a href="javascript:;" target="_blank" class="self-shezhi">个人设置</a>
+							</div>
+						</li>
+						<!--
+                        	作者：offline
+                        	时间：2017-4-18
+                        	描述：导航栏的购物车部分
+                        -->
+						<li class="item menu ely-sn-cart">
+							<a class="menu-hd" href="goodscart.html" rel="nofollow" target="_blank"><i class="sn-i-cart"></i><span>进货车</span id="min_cart_num"><span style="color: #ff0000;font-weight: 900;" id="goodsnum">&nbsp;0</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd" id="my_goods_empty">
+								<p class="empty-tips">您的进货车还没有货品，赶紧选购吧！</p>
+							</div>
+						</li>
+						<li class="item menu q-favorite">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-favorite"></i><span>收藏夹</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<ul class="ul-list">
+									<li>
+										<a class="zuijin" rel="nofollow" href="javascript:;" target="_blank">最近收藏</a>
+									</li>
+									<li>
+										<a class="zuijin1" rel="nofollow" href="javascript:;" target="_blank">历史收藏</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="item menu q-site">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-site"></i><span>网站导航</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<dl class="dl-list">
+									<dd>
+										<a class="biaoti" href="nvzhuang.html">女装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=连衣裙" target="_blank">连衣裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=时尚套装" target="_blank">时尚套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士牛仔裤" target="_blank">牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=半身裙" target="_blank">半身裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士休闲裤" target="_blank">休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士毛衣" target="_blank">毛织衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="nanzhuang.html">男装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士T恤" target="_blank">男士T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士休闲裤" target="_blank">男士休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士牛仔裤" target="_blank">男士牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士夹克" target="_blank">男士夹克</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士衬衫" target="_blank">男士衬衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="tongzhuang.html">童装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童T恤" target="_blank">儿童T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童套装" target="_blank">儿童套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童裙装" target="_blank">女童裙装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童装裤子" target="_blank">童装裤子</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="neiyi.html">内衣</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=文胸" target="_blank">文胸</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=内裤" target="_blank">内裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=袜子" target="_blank">袜子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=睡裙" target="_blank">睡衣</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="yishi.html">衣饰</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=眼镜" target="_blank">眼镜</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帽子" target="_blank">帽子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=腰带" target="_blank">腰带</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=耳饰" target="_blank">耳饰</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手链" target="_blank">手链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=项链" target="_blank">项链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=领带" target="_blank">领带</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xielei.html">鞋类</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=运动鞋" target="_blank">运动鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=休闲鞋" target="_blank">休闲鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=皮鞋" target="_blank">皮鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=凉鞋" target="_blank">凉鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单鞋" target="_blank">单鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=拖鞋" target="_blank">拖鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=板鞋" target="_blank">板鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帆布鞋" target="_blank">帆布鞋</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xiangbao.html">箱包</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单肩包" target="_blank">单肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=双肩包" target="_blank">双肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=钱包" target="_blank">钱包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手提包" target="_blank">手提包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手拿包" target="_blank">手拿包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=旅行箱" target="_blank">旅行箱</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=斜挎包" target="_blank">斜挎包</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+					<div class="index-link">
+						<a class="clr-red" href="index.html" title="衣联首页" target="_blank">衣联首页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="second">
+			<div class="dizhi">
+				<div class="dizhi-t">
+					<span class="yinian">1年店</span>
+					<span class="dm"></span>
+				</div>
+				<div class="dizhi-b">
+					<i class="iconfont icon-diliweizhi2 size" style="float: left;"></i>
+					<span class="adds"></span>
+				</div>
+			</div>
+			<div class="zixun"><a href="javascript:;">咨询商家</a></div>
+			<ul class="zhuangkuang">
+				<li>
+					<p class="p1 chengjiaoshu">2</p>
+					<p class="p2">累计成交数</p>
+				</li>
+				<li>
+					<p class="p1 maijiashu">1</p>
+					<p class="p2">买家数</p>
+				</li>
+				<li>
+					<p class="p1 manyidu">100.00%</p>
+					<p class="p2">满意度</p>
+				</li>
+			</ul>
+			<!--<input type="text" placeholder="请输入你想搜索的内容" />
+			<a class="a1" href="javascript:;">搜全站</a>
+			<a class="a2" href="javascript:;">搜本站</a>-->
+			<div class="search">
+	    			<div class="search-in">
+	    				<input type="text" class="search-text" id="s_keyword" value=""/>
+	    				<ul class="datalist"></ul>
+	    			</div>
+	    			<div class="search-btn">
+	    				<a class="submit-btn" name="search-btn" href="javascript:;">搜索</a>
+	    			</div>
+	    	</div>
+		</div>
+		<div id="nav">
+			<div class="nav-c">
+				<a href="javascript:;">首页</a>
+				<a href="javascript:;">全部新品</a>
+				<a href="javascript:;">公司档案</a>
+				<a href="javascript:;">店铺信誉</a>
+			</div>
+		</div>
+		<div id="main-xq">
+			<div class="main-xq-c">
+				<div class="xiangxi">
+					<p>
+						<a href="#">衣联网</a>&gt;<a href="#" class="leibie1"></a>&gt;<a href="#" class="leibie2"></a>&gt;<span class="leibie3"></span>
+					</p>
+				</div>
+				<div class="fangdajing">
+					<div class="left">
+						<div class="zoom-box">
+							<!-- 容器-->
+							<div class="small-box">
+								<!-- 小图片容器-->
+								<img src="" alt="" id="smallImg"/>
+								<div class="square"></div>
+								<!-- 鼠标选中框-->
+								<div class="mask"></div>
+								<!-- 鼠标悬浮位置-->
+							</div>
+							<div class="img-list">
+								<!-- 图片列表-->
+								<ul>
+									<!--<li><img class="active" src="img/1.jpg" alt="" data-small="img/1-01.jpg" data-big="img/1-01-1.jpg" id="img1"/></li>
+									<li><img src="img/2.jpg" alt="" data-small="img/2-01.jpg" data-big="img/2-01-1.jpg" id="img2"/></li>
+									<li><img src="img/6.jpg" alt="" data-small="img/6-01.jpg" data-big="img/6-01-1.jpg" id="img3"/></li>
+									<li><img src="img/7.jpg" alt="" data-small="img/7-01.jpg" data-big="img/7-01-1.jpg" id="img4"/></li>
+									<li><img src="img/8.jpg" alt="" data-small="img/8-01.jpg" data-big="img/8-01-1.jpg" id="img5"/></li>
+									<li><img src="img/5.jpg" alt="" data-small="img/5-01.jpg" data-big="img/5-02.jpg" id="img6"/></li>
+									<li><img src="img/3.jpg" alt="" data-small="img/3-01.jpg" data-big="img/3-01.jpg" id="img7"/></li>
+									<li><img src="img/4.jpg" alt="" data-small="img/4-01.jpg" data-big="img/4-01.jpg" id="img8"/></li>-->
+									<li><img class="active" src="" alt="" data-small="" data-big="" id="img1"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img2"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img3"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img4"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img5"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img6"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img7"/></li>
+									<li><img src="" alt="" data-small="" data-big="" id="img8"/></li>
+								</ul>
+								<span class="tu-up">up</span>
+								<span class="tu-down">down</span>
+							</div>
+							<div class="big-box">
+								<!-- 放大镜-->
+								<img src="" alt="" id="bigImg"/>
+							</div>
+						</div>
+						<div class="link">
+							<p>相关推荐：</p>
+							<ul class="ul1">
+								<!--<li>
+									<a href="detail.html?goodsid=37" target="_blank">
+										<img src="images/banner1-1.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=38" target="_blank">
+										<img src="images/banner1-2.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=39" target="_blank">
+										<img src="images/banner1-3.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=40" target="_blank">
+										<img src="images/banner1-4.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=25" target="_blank">
+										<img src="images/banner1-5.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=26" target="_blank">
+										<img src="images/banner1-6.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=27" target="_blank">
+										<img src="images/banner1-7.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>
+								<li>
+									<a href="detail.html?goodsid=28" target="_blank">
+										<img src="images/banner1-8.jpg">
+										<p>￥55.00~88.00</p>
+									</a>
+								</li>-->
+							</ul>
+							<ul class="ul2">
+								<!--<li><img src="img/1-01-1.jpg"></li>
+								<li><img src="img/2-01-1.jpg"></li>
+								<li><img src="img/3-01.jpg"></li>
+								<li><img src="img/4-01.jpg"></li>
+								<li><img src="img/5-02.jpg"></li>
+								<li><img src="img/6-01-1.jpg"></li>
+								<li><img src="img/7-01-1.jpg"></li>
+								<li><img src="img/8-01-1.jpg"></li>-->
+								<li><img src="" class="zs-01"></li>
+								<li><img src="" class="zs-02"></li>
+								<li><img src="" class="zs-03"></li>
+								<li><img src="" class="zs-04"></li>
+								<li><img src="" class="zs-05"></li>
+								<li><img src="" class="zs-06"></li>
+								<li><img src="" class="zs-07"></li>
+								<li><img src="" class="zs-08"></li>
+							</ul>
+						</div>
+					</div>
+					<div class="right">
+						<div class="price-top"><p>衣联批发价</p></div>
+						<div class="price-mingxi">
+							<p class="p1">
+								<span>单价:</span>
+								<span style="font-size: 28px;color: blue;" class="price"></span>
+								<span>元</span>
+							</p>
+							<!--<p class="p2">
+								<span>散批&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2~4件&nbsp;&nbsp;&nbsp;</span>
+								<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拿货&nbsp;&nbsp;&nbsp;&nbsp;>=5件</span>
+							</p>-->
+						</div>
+						<div class="peisong">
+							<div class="peisong-1">
+								<span class="p4">配送</span>
+								<p class="chufadi"></p>
+							</div>
+							<div class="peisong-2">
+								<span>至:境内</span>
+								<span>运费<span class="sp-price">:0.00</span>元</span>
+							</div>
+							<div class="peisong-2">
+								<span>至:海外</span>
+								<span>运费<span class="sp-price">:20.00</span>元</span>
+							</div>
+						</div>
+						<div class="sp-color">
+							<span class="yans">颜色</span>
+							<span class="clr-item col-1">白色</span>
+							<span class="clr-item col-2">粉红色</span>
+							<span class="clr-item col-3">深蓝色</span>
+						</div>
+						<div class="n-size sp-color">
+							<span class="size yans">尺码</span>
+							<span class="size-1 xsize">小号</span>
+							<span class="size-2 xsize">中号</span>
+							<span class="size-3 xsize">大号</span>
+						</div>
+						<div class="sp-size" style="margin-left: 150px;">
+							<ul>
+								<!--<li class="li1">均码</li>-->
+								<li class="li2"></li>
+								<li class="li3">
+									<span class="jian">－</span>
+									<input type="text" class="num" value="0">
+									<!--<span class="num">0</span>
+-->									<span class="jia">+</span>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="jiaru" style="margin-top: 200px;position: relative;">
+							<div class="qingdan">
+								<div class="qingdan-sum">
+									<span class="qd-sum">0</span><span>件</span>
+									<span class="qd-yuan">￥</span><span class="qd-sum-yuan">0</span>
+								</div>
+								<div class="qingdan-list">已选清单
+									<div class="qingdan-list-1">
+										<ul>
+											<li class="li01">请选择颜色</li>
+											<li class="li02">请选择数量</li>
+											<li class="li03">请选择尺码</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<a class="huoche" href="javascript:;">加入进货车</a>
+							<div class="tip-huoche" style="width: 200px;height: 100px;border: 1px #cdcdcd solid;position: absolute;top:-150px;left: 100px;border-radius: 10px;line-height: 50px;text-align: center;color: darkgoldenrod;font-size: 20px;background-color: #FFFFFF;opacity: 0;">该商品成功加<br/>入了购物车</div>
+							<a class="xiadan" href="javascript:;">立下清单</a>
+						</div>
+						<div class="shoucang">
+							<p>
+								<!--<a href="javascript:;">手机下单</a>-->
+								<a href="javascript:;" style="margin-left: 180px;font-size: 20px;" class="favorite">收藏商品</a>
+								<!--<a href="javascript:;">我要比货</a>-->
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-12-17
+        	描述：最底部
+        -->
+		<div id="bottom">
+			<div class="bot">
+				<div class="bot-zhinan">
+					<dl class="bot-dl">
+						<dt>
+							<i class="xszn"></i><span>新手指南</span>
+						</dt>
+						<dd><a href="javascript:;">账户注册</a></dd>
+						<dd><a href="javascript:;">买家入门</a></dd>
+						<dd><a href="javascript:;">卖家专区</a></dd>
+						<dd><a href="javascript:;">常见问题</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="zffz"></i><span>支付方式</span>
+						</dt>
+						<dd><a href="javascript:;">付款方式</a></dd>
+						<dd><a href="javascript:;">网银支付</a></dd>
+						<dd><a href="javascript:;">银联支付</a></dd>
+						<dd><a href="javascript:;">支付宝支付</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="jybz"></i><span>交易保障</span>
+						</dt>
+						<dd><a href="javascript:;">诚信保障</a></dd>
+						<dd><a href="javascript:;">包退包换</a></dd>
+						<dd><a href="javascript:;">准时发货</a></dd>
+						<dd><a href="javascript:;">实拍认证</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="tswq"></i><span>投诉维权</span>
+						</dt>
+						<dd><a href="javascript:;">仲裁管理</a></dd>
+						<dd><a href="javascript:;">举报管理</a></dd>
+						<dd><a href="javascript:;">投诉管理</a></dd>
+						<dd><a href="javascript:;">退货退款</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="sjfw"></i><span>商家服务</span>
+						</dt>
+						<dd><a href="javascript:;">开店管理</a></dd>
+						<dd><a href="javascript:;">商家入驻</a></dd>
+						<dd><a href="javascript:;">商家认证</a></dd>
+						<dd><a href="javascript:;">商家提现</a></dd>
+					</dl>
+					<div class="phone-login">
+						<p class="title">手机登录：m.eelly.com</p>
+						<ul>
+							<li class="li-01">
+								<span class="ph-tubiao"></span>
+								<a href="javascript:;">iPhine</a>
+							</li>
+							<li class="li-02">
+								<span class="anzhuo-tubiao"></span>
+								<a href="javascript:;">Android</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="remenfenlei">
+					<p class="flei">热门分类:</p>
+					<a href="javascript:;" target="_blank">长袖T恤</a>
+					<a href="javascript:;" target="_blank">广东童装批发</a>
+					<a href="javascript:;" target="_blank">情侣装外套</a>
+					<a href="javascript:;" target="_blank">黑色连衣裙</a>
+					<a href="javascript:;" target="_blank">秋装新款连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版时尚男装</a>
+					<a href="javascript:;" target="_blank">女风衣外套</a>
+					<a href="javascript:;" target="_blank">秋装连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版修身牛仔裤</a>
+					<a href="javascript:;" target="_blank">儿童服装</a>
+					<a href="javascript:;" target="_blank">女款卫衣</a>
+					<a href="javascript:;" target="_blank">紧身裤</a>
+					<a href="javascript:;" target="_blank">打底裤长款</a>
+					<a class="li0" href="javascript:;" target="_blank">服装店铺排行</a>
+				</div>
+				<div class="remenfenlei yq-link">
+					<p class="flei">友情链接:</p>
+					<a href="javascript:;" target="_blank">QQ：4543154425</a>
+					<a href="javascript:;" target="_blank">中国建材网</a>
+					<a href="javascript:;" target="_blank">中国女装网</a>
+					<a href="javascript:;" target="_blank">名鞋库</a>
+					<a href="javascript:;" target="_blank">蘑菇街</a>
+					<a href="javascript:;" target="_blank">家具</a>
+					<a href="javascript:;" target="_blank">连锁加盟网</a>
+					<a href="javascript:;" target="_blank">发型</a>
+					<a href="javascript:;" target="_blank">爱靓丽时尚女性</a>
+					<a href="javascript:;" target="_blank">中国情报网</a>
+					<a href="javascript:;" target="_blank">播视网视频</a>
+					<a href="javascript:;" target="_blank">b2b</a>
+					<a href="javascript:;" target="_blank">慧聪网</a>
+					<a href="javascript:;" target="_blank">时尚品牌网</a>
+					<a class="li0" href="javascript:;" target="_blank">结婚网</a>
+				</div>
+				<div class="bot-about">
+					<a class="li1" href="javascript:;">关于衣联</a>
+					<a href="javascript:;">衣联动态</a>
+					<a href="javascript:;">衣联招聘</a>
+					<a href="javascript:;">入驻商家</a>
+					<a href="javascript:;">合作伙伴</a>
+					<a class="li0" href="javascript:;">联系衣联</a>
+				</div>
+				<div class="bot-copyright">
+					<span> Copyright©2003-2016 Eelly.com All Right Reserved.广州市衣联网络科技有限公司 版权所有 </span>
+					<a href="javascript:;" target="_blank">隐私申明</a>
+					<span>粤ICP备</span>
+					<a href="javascript:;" target="_blank">10209547号-2</a>
+					<span>公安备案号</span>
+					<a href="javascript:;" target="_blank">44010402000492</a>
+				</div>
+				<ul class="bot-renz bot-renz1">
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-01.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-02.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-03.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-04.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-05.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-06.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-07.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-08.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-09.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-10.png"></a>
+					</li>
+				</ul>
+				<ul class="bot-renz">
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-11.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-12.png"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script>
+		//是否登录判断
+		var username=sessionStorage.getItem("username");
+		if(username){
+			$(".login1").html("用户"+":"+username+"您好!");
+			$(".register1").html("退出");
+			$(".register1").click(function(){
+				sessionStorage.removeItem("username");
+				window.location.reload();
+			});
+			getGoodsNum();
+			console.log("aaaaaaaaaaa");
+			
+		}else{
+			$(".login1").html("请登录");
+			$(".register1").html("免费注册");
+			$(".login1").click(function(){
+				window.location.href="login.html?goodsid="+encodeURI(goodsid);    
+			});
+			$(".register1").click(function(){
+				window.location.href="register.html";
+			});
+			$(".empty-tips").html("您还没有登录，请先登录！");
+			$(".empty-tips").click(function(){
+				window.location.href="login.html?goodsid="+encodeURI(goodsid);
+			});
+		} 
+		$(".empty-tips").mouseenter(function(){
+			$(".empty-tips").css({
+				color:"red"
+			});
+		});
+		$(".empty-tips").mouseleave(function(){
+			$(".empty-tips").css({
+				color:"#666666"
+			});
+		});
+		//获取url参数
+		function getQueryString(name){
+			//设置查找name前缀
+			//在你要添加的名字前面进行添加前缀 匹配元素的正则表达式
+			var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
+			//进行查找
+			var r=window.location.search.substr(1).match(reg);
+			if(r!=null){
+				return decodeURI(r[2]);
+			}
+			return null;
+		}
+		var goodsid=getQueryString("goodsid");
+		getgoodsinfo();
+		function getgoodsinfo(){
+			$.ajax({
+				url: 'http://127.0.0.1:3000/goodsinfo',
+				type: 'GET',
+				data:{"goodsid": goodsid},
+				success: function(data) {
+					console.log(data);
+					var ret = jQuery.parseJSON(data);
+					console.log(ret[0].add);
+					$(".chengjiaoshu").html(ret[0].chengjiaoshu);
+					$(".manyidu").html(ret[0].manyidu);
+					$(".maijiashu").html(ret[0].maijiashu);
+					$(".dm").html(ret[0].name);
+					$(".adds").html(ret[0].add);
+					$(".price").html(ret[0].price);
+					$(".leibie1").html(ret[0].h3);
+					$(".leibie2").html(ret[0].h4);
+					$(".leibie3").html(ret[0].h5);
+					$(".chufadi").html(ret[0].ad);
+					$(".li2").html(ret[0].nmb+"件");
+					$("#img1").attr("src",ret[0].src1);
+					$("#img1").attr("data-small",ret[0].src1);
+					$("#img1").attr("data-big",ret[0].src1);
+					$("#img2").attr("src",ret[0].src2);
+					$("#img2").attr("data-small",ret[0].src2);
+					$("#img2").attr("data-big",ret[0].src2);
+					$("#img3").attr("src",ret[0].src3);
+					$("#img3").attr("data-small",ret[0].src3);
+					$("#img3").attr("data-big",ret[0].src3);
+					$("#img4").attr("src",ret[0].src4);
+					$("#img4").attr("data-small",ret[0].src4);
+					$("#img4").attr("data-big",ret[0].src4);
+					$("#img5").attr("src",ret[0].src5);
+					$("#img5").attr("data-small",ret[0].src5);
+					$("#img5").attr("data-big",ret[0].src5);
+					$("#img6").attr("src",ret[0].src6);
+					$("#img6").attr("data-small",ret[0].src6);
+					$("#img6").attr("data-big",ret[0].src6);
+					$("#img7").attr("src",ret[0].src7);
+					$("#img7").attr("data-small",ret[0].src7);
+					$("#img7").attr("data-big",ret[0].src7);
+					$("#img8").attr("src",ret[0].src8);
+					$("#img8").attr("data-small",ret[0].src8);
+					$("#img8").attr("data-big",ret[0].src8);
+					$("#smallImg").attr("src",ret[0].src1);
+					$("#bigImg").attr("src",ret[0].src1);
+					$(".zs-01").attr("src",ret[0].src1);
+					$(".zs-02").attr("src",ret[0].src2);
+					$(".zs-03").attr("src",ret[0].src3);
+					$(".zs-04").attr("src",ret[0].src4);
+					$(".zs-05").attr("src",ret[0].src5);
+					$(".zs-06").attr("src",ret[0].src6);
+					$(".zs-07").attr("src",ret[0].src7);
+					$(".zs-08").attr("src",ret[0].src8);
+					console.log('Success: ');
+				},
+				error: function(xhr, status, error) {
+					console.log('Error: ' + error.message);
+				},
+			});
+		}
+		gettuijiangoods();
+		function gettuijiangoods(){
+			console.log("-----------------------");
+			$.ajax({
+				type:"get",
+				url:"http://127.0.0.1:3000/gettuijiangoods",
+				async:true,
+				data:{goodsid:goodsid},
+				success:function(data){
+					console.log(data);
+					var ret=JSON.parse(data);
+					console.log(ret.length);
+					var length=ret.length;
+					if(length>8){
+						console.log("大于8");
+						length=8;
+						for(var i=0;i<length;i++){
+							var $code=("<li><a href=\""+'detail.html?goodsid='+ret[i].goodsid+"\" target=\"_blank\"><img src=\""+ret[i].src1+"\"><p>￥"+ret[i].price+"</p></a></li>");
+							$(".ul1").append($code);
+						}
+					}else{
+						console.log("小于8");
+						for(var i=0;i<length;i++){
+							var $code=("<li><a href=\""+'detail.html?goodsid='+ret[i].goodsid+"\" target=\"_blank\"><img src=\""+ret[i].src1+"\"><p>￥"+ret[i].price+"</p></a></li>");
+							$(".ul1").append($code);
+						}
+					}
+				}
+			});
+		}
+//		放大镜里面小图片列表
+		var index=0;
+		$(".img-list").mousemove(function(){
+        	$(".tu-down,.tu-up").css({
+        		display:"block"
+        	});
+        });
+        $(".img-list").mouseout(function(){
+        	$(".tu-down,.tu-up").css({
+        		display:"none"
+        	});
+        });
+        $(".tu-down").click(function(){
+        	if(index==0){
+        		$(".img-list ul").css({
+        			top:"-124px"
+        		});
+        		index++;
+        		console.log(index);
+        		return;
+        	}if(index==1){
+        		$(".img-list ul").css({
+        			top:"-248px"
+        		});
+        		index++;
+        		console.log(index);
+        		return;
+        	}
+        	if(index==2){
+        		$(".img-list ul").css({
+        			top:"-372px"
+        		});
+        		index++;
+        		console.log(index);
+        		return;
+        	}
+        })
+         $(".tu-up").click(function(){
+        	if(index==1){
+        		$(".img-list ul").css({
+        			top:"0px"
+        		});
+        		index--;
+        		console.log(index);
+        		return;
+        	}if(index==2){
+        		$(".img-list ul").css({
+        			top:"-124px"
+        		});
+        		index--;
+        		console.log(index);
+        		return;
+        	}
+        	if(index==3){
+        		$(".img-list ul").css({
+        			top:"-248px"
+        		});
+        		index--;
+        		console.log(index);
+        		return;
+        	}
+        });
+        /*颜色选框 */
+        $(".clr-item").mouseenter(function(){
+         	$(this).css({
+         		border:"1px #ff0000 solid",
+         		color:"red"
+         	});
+        });
+        $(".clr-item").mouseleave(function(){
+         	$(".clr-item").css({
+         		border:"1px #cdcdcd solid",
+         		color:"#666"
+         	});
+         	$(".secl").css({
+         		border:"1px #ff0000 solid",
+         		color:"red"
+         	})
+        });
+        $(".clr-item").click(function(){
+        	var list= $(".clr-item");
+        	$(".clr-item").removeClass("secl");
+        	console.log(list.length);
+        	$(".clr-item").css({
+        		border:"1px #cdcdcd solid",
+         		color:"#666"
+        	});
+			$(this).addClass("secl");
+        	$(this).css({
+        		border:"1px #ff0000 solid",
+         		color:"red",
+        	});
+        	console.log(this);
+        });
+		//尺码选框
+		$(".xsize").mouseenter(function(){
+         	$(this).css({
+         		border:"1px #ff0000 solid",
+         		color:"red"
+         	});
+        });
+        $(".xsize").mouseleave(function(){
+         	$(".xsize").css({
+         		border:"1px #cdcdcd solid",
+         		color:"#666"
+         	});
+         	$(".secl-size").css({
+         		border:"1px #ff0000 solid",
+         		color:"red"
+         	})
+        });
+        $(".xsize").click(function(){
+        	var list= $(".xsize");
+        	$(".xsize").removeClass("secl-size");
+        	console.log(list.length);
+        	$(".xszie").css({
+        		border:"1px #cdcdcd solid",
+         		color:"#666"
+        	});
+			$(this).addClass("secl-size");
+        	$(this).css({
+        		border:"1px #ff0000 solid",
+         		color:"red",
+        	});
+        	console.log(this);
+        });
+        /*商品数量*/
+        $(function(){
+        	index1=$(".num").val();//val
+        	console.log(index1);
+        	$(".jian").click(function(){
+        		var temp=0;
+        		if(index1>0&&index1<$(".price").html()){
+        			index1--;
+        			console.log(index1);
+        		}else{
+        			index1=0;
+        		}
+        		$(".num").val(index1);
+        		$(".qd-sum").html(index1);
+        		$(".qd-sum-yuan").html(index1*$(".price").html());
+        		
+				$(".li02").html("数量："+index1+"件");////////////////
+        		$(".li03").html("尺码："+$(".secl-size").html());
+        		$(".qingdan").animate({
+        			top:"-50px",
+        			height:"50px"
+        		},500);
+        	});
+        	$(".jia").click(function(){
+        		if(index1<$(".price").html()){
+        			index1++;
+        		}else{
+        			index1=$(".price").html();
+        			console.log(index1);
+        		}
+        		$(".num").val(index1);
+        		$(".qd-sum").html(index1);
+        		$(".qd-sum-yuan").html(index1*$(".price").html());
+        		$(".li02").html("数量："+index1+"件");
+        		$(".li03").html("尺码："+$(".secl-size").html());
+        		$(".qingdan").animate({
+        			top:"-50px",
+        			height:"50px"
+        		},500);
+        	});
+        	$(".clr-item").click(function(){
+        		console.log($(".secl").html());
+        		$(".li01").html("颜色："+$(".secl").html());
+        	});
+        	/*显示清单*/
+        	$(".qingdan-list").mouseenter(function(){
+        		console.log("aaaaaaa");
+        		$(".qingdan-list-1").css({
+        			display:"block"
+        		});
+        		$(".qingdan").css({
+        			overflow:"visible"
+        		});
+        		$(".li01").html("颜色："+$(".secl").html());
+        		$(".li02").html("数量："+index1+"件");
+        		$(".li03").html("尺码："+$(".secl-size").html());
+        		if($(".secl").html()==undefined){
+        			$(".li01").html("请选择商品颜色!");
+        		}
+        		if($(".secl-size").html()==undefined){
+        			$(".li03").html("请选择商品尺寸!");
+        		}
+        	});
+        	$(".qingdan-list").mouseleave(function(){
+        		$(".qingdan-list-1").css({
+        			display:"none"
+        		});
+        	});
+        })
+        
+	$(window).scroll(function(){
+		console.log($(document).scrollTop());
+		var w=(window.screen.width-1200)/2+763+"px";
+		
+		if($(document).scrollTop()>=213){
+			$(".fangdajing .right").css({
+				position:"fixed",
+				top:"0px",
+				left:w
+			});
+		}else{
+			$(".fangdajing .right").css({
+				position:"absolute",
+				top:"213px",
+				left:w
+			});
+		}
+		if($(document).scrollTop()>=6244){
+			$(".fangdajing .right").css({
+				position:"absolute",
+				left:w,
+				top:"6244px"
+				
+			});
+		}
+	});
+	//点击加入购货车
+	$(".huoche").click(function(){
+		var dianname=$(".dm").html();
+		var goodsname=$(".leibie3").html();
+		var goodscolor=$(".secl").html();
+		var goodssize=$(".secl-size").html();
+		var goodsnum=$(".num").val();
+		var goodsimg=$("#smallImg").attr("src");
+		var goodsprice=$(".price").html();
+		var totalnum=parseInt($(".li2").html());
+		if(username==undefined){
+			window.location.href="login.html?goodsid="+encodeURI(goodsid);
+		}else if(goodscolor==undefined ||goodssize==undefined ||goodsnum==0){
+			$(".tip-huoche").html("请确保商品<br/>信息完整！");
+			$(".tip-huoche").animate({
+				opacity:"1",
+				//display:"none"
+			},1000);
+			setTimeout(function(){
+				$(".tip-huoche").animate({
+					opacity:"0",
+					//display:"none"
+				},1000);
+			},3000);
+		}else{
+			$.ajax({
+				url: 'http://127.0.0.1:3000/addgoodscart',
+				type: 'GET',
+				data:{goodsid: goodsid,username:username,goodsname:goodsname,goodscolor:goodscolor,goodssize:goodssize,goodsnum:goodsnum,goodsimg:goodsimg,goodsprice:goodsprice,totalnum:totalnum,name:dianname},
+				success: function(data) {
+					console.log(data);
+					var ret = jQuery.parseJSON(data);
+					console.log(ret);
+					if(ret.msg==0){
+						//alert("该商品成功加入了购物车！");
+						$('.tip-huoche').html("该商品成功加入了<br/>购物车!");
+						getGoodsNum();
+						$(".tip-huoche").animate({
+							opacity:"1",
+							//display:"none"
+						},1000);
+						setTimeout(function(){
+							$(".tip-huoche").animate({
+								opacity:"0",
+								//display:"none"
+							},1000);
+						},3000);
+					}
+					console.log('Success: ');
+				},
+				error: function(xhr, status, error) {
+					console.log('Error: ' + error.message);
+				},
+			});
+		}
+	});
+	//getGoodsNum();
+	
+	function getGoodsNum(){
+		$.ajax({
+			type:"get",
+			url:"http://127.0.0.1:3000/getgoodsnum",
+			data:{username:username},
+			async:true,
+			success:function(data){
+				console.log(data);
+				var ret=jQuery.parseJSON(data);
+				console.log(ret.number);
+				$("#goodsnum").html(" "+ret.number);
+				if($("#goodsnum").html()>99){
+					console.log("bbbbb");
+					$("#goodsnum").html(" "+"99+");
+				}
+				if($("#goodsnum").html()==0){
+					$(".empty-tips").html("您的购物车为空请赶紧购物吧！");
+				}else{
+					
+	
+					$(".empty-tips").html("点击查看我的购物车！");
+					$(".empty-tips").click(function(){
+						window.location.href="goodscart.html";
+					});
+				}
+				/*if($("#goodsnum").html()==undefined){
+					$("#goodsnum").html("0");
+				}*/
+			},
+		});
+	}
+	//点击收藏商品
+	$(".favorite").click(function(){
+		myFavorite();
+	});
+	function myFavorite(){
+		var dianname=$(".dm").html();
+		var goodsname=$(".leibie3").html();
+		var goodsimg=$("#smallImg").attr("src");
+		var goodsprice=$(".price").html();
+		if(username==undefined){
+			window.location.href="login.html?goodsid="+encodeURI(goodsid);
+		}else{
+			$.ajax({
+				type:"get",
+				url:"http://127.0.0.1:3000/myfavorite",
+				data:{username:username,goodsid:goodsid,goodsname:goodsname,goodsprice:goodsprice,goodsimg:goodsimg,name:dianname},
+				async:true,
+				success:function(data){
+					console.log(data);
+					var ret=JSON.parse(data);
+					console.log(ret);
+					if(ret.msg==0){
+						$('.tip-huoche').html("该商品已经<br/>收藏!");
+						$(".tip-huoche").animate({
+							opacity:"1",
+							//display:"none"
+						},1000);
+						setTimeout(function(){
+							$(".tip-huoche").animate({
+								opacity:"0",
+								//display:"none"
+							},1000);
+						},3000);
+					}else{
+						$('.tip-huoche').html("该商品成功<br/>收藏!");
+						$(".tip-huoche").animate({
+							opacity:"1",
+							//display:"none"
+						},1000);
+						setTimeout(function(){
+							$(".tip-huoche").animate({
+								opacity:"0",
+								//display:"none"
+							},1000);
+						},3000);
+					}
+				}
+			});
+		}
+	}
+	</script>
+	<script src="js/header.js"></script>
+</html>

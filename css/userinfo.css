@@ -1,0 +1,25 @@
+#major{min-height: 1000px;_height:1000px;}
+.major{width: 1198px;margin: 0 auto;min-height: 800px;_height;800px;background-color: #FFFFFF;border:1px solid #cdcdcd;}
+#major h2{height: 60px;background-color: #556782;color: #FFFFFF;font-size: 28px;text-align: center;font-weight: 900;line-height: 60px;}
+.major .left{height: 100%;width: 200px;float: left;font-size: 22px;color: #666666;}
+.major .left .user-info{margin-left: 20px;margin-top: 20px;display: block;width: 120px;height: 40px;background-color:#F16767;line-height: 40px;text-align: center;border-radius: 5px;color: #ffffff;}
+.major .left .user-add{margin-left: 20px;margin-top: 20px;display: block;width: 120px;height: 40px;background-color:#FFFFFF;line-height: 40px;text-align: center;border-radius: 5px;color: #666666;}
+.major .right{width: 900px;float: left;}
+.major .right .user-info-sheet{width: 900px;height: 700px;display: block;}
+.major .right .user-address-sheet{width: 900px;height: 700px;display: none;}
+.major .right h3{margin-left: 50px;font-size: 20px;height: 40px;line-height: 40px;}
+form{width: 800px;height: 600px;border: 1px solid #cdcdcd;margin: 0 auto;margin-top: 10px;}
+.major .right ul li{height: 40px;line-height: 40px;font-size: 20px;margin-top: 20px;}
+.major .right ul .li5 .realadd{float: left;}
+.major .right ul{margin-left: 40px;margin-top: 20px;}
+.major .right ul em{width: 140px;float: left;color: #969696;}
+.major .right ul .li8{text-align: center;margin-top: 60px;}
+.major .right ul .li8 .btn,.btn2{width: 100px;height: 34px;color: #ffffff;background-color: #D2364C;text-align: center;border-radius: 5px;float: left;line-height: 34px;margin-left: 300px;}
+.major .right ul .li8 .btn:hover{color: #ffffff;background-color: #D3E4F0;}
+.btn2:hover{color:#ffffff;background-color: #D3E4F0;}
+.phonenum-tip,.realadd-tip,.realname-tip,.qqhao-tip,.nicheng-tip,.add-juti-tip,.zip-code-tip,.tel-num-tip,.name-shouhuo-tip,.name-shouhuo-tip,.btn2-tip{color: red;font-size: 16px;}
+/*3级联动地址*/
+.privinces,.citys,.countys { position: absolute; width: 300px; background-color: #f8f8f8; padding: 10px 15px; border: 1px #d9d9d9 solid; box-shadow: 3px 3px 5px rgba(128,128,128,0.2);}
+.privinces .a,.citys .a,.countys .a { font-family: "微软雅黑"; font-size: 12px; color: #333; text-decoration: none; display: block; float: left; *display: inline-block; _display: inline; zoom: 1; *float: none; padding: 3px 5px; }
+.privinces a:hover,.citys .a:hover,.countys .a:hover { background-color: #f0d5d3; color: #fff;}
+

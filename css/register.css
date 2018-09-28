@@ -1,0 +1,23 @@
+#main-co{height: 834px;width: 100%;background: #f1f1f1;}
+.main-cot{margin:0 auto;width: 1200px;height: 834px;}
+.newreg{width: 980px;height: 834px;margin:0 auto;overflow: hidden;}
+.title{width: 926px;height: 72px;margin: 0 auto;margin-top:40px;border: 1px #cdcdcd solid;}
+.title h2{height: 72px;width: 111px;font-size: 16px;color: #000;font-weight: 900;line-height: 72px;margin-left: 40px;float: left;}
+.title span{width: 240px;height: 72px;float: right;line-height: 72px;text-align: center;}
+.title span a{color: #0055CC;}
+.container{height: 601px;width: 926px;margin:0 auto;border-bottom: 1px #cdcdcd solid;border-left: 1px #cdcdcd solid;border-right: 1px #cdcdcd solid;}
+.zc-state{height: 100px;width: 926px;line-height: 100px;font-size: 14px;color: #000;margin-left: 40px;}
+form{width: 809px;height: 286px;float: right;}
+.user{width: 290px;height: 38px;margin:10px 0;border:0;border: 1px #cdcdcd solid;float: left;background-color: #ffffff;}
+.icon-yonghuming,.icon-mima1,.icon-yanzhengma1{margin-left: 5px;margin-right: 5px;}
+.login-text{width: 250px;height: 38px;border:0;outline: none;}
+.pwd,.yanzheng,.pwd2{width: 290px;height: 38px;margin:10px 0;border:0;border: 1px #cdcdcd solid;float: left;background-color: #ffffff;}
+#tip-account-register,#tip-password,#tip-password2,#tip-checkcode{margin-top:20px;float: left;}
+.yanzhengma{margin-top:20px;float: left;margin-left:5px;margin-right: 5px;}
+#submit-register{width: 290px;height: 35px;background: #FF0000;text-align: center;line-height: 35px;border:0;float: left;}
+.li-check{height: 32px;line-height: 32px;float: left;}
+form li{margin-left: 200px;float: left;}
+.tip-error{color: #FF0000;}
+.container .p1{width: 926px;height: 30px;margin-top:340px;text-align: center;}
+.container .p1 a{padding:0 10px;border-right: 1px #cdcdd solid;font-size: 14px;}
+.container .p2{text-align: center;width: 926px;height: 30px;}

@@ -1,0 +1,22 @@
+.header{width: 1200px;height: 75px;margin: 0 auto;overflow: hidden;}
+.header a img{margin-top:7px;}
+.middler{width: 1200px;height: 480px;margin: 0 auto;overflow: hidden;}
+.middler .left{width: 506px;height: 304px;margin-top:40px;margin-left: 20px;float: left;}
+.middler .right{width: 400px;height: 400px;float: left;border: 1px #cdcdcd solid;margin-left: 200px;}
+.right .p1{height: 50px;width: 400px;font-size: 16px;line-height: 50px;color: #000;text-align: center;}
+.right li{width: 360px;height: 42px;margin-top:20px;margin-left: 20px;}
+.right .user{width:300px;height: 42px;border:0;border:1px #cdcdcd solid;float: right;}
+.right .icon-yonghuming,.right .icon-mima1{margin-left: 5px;margin-right: 5px;}
+.right .num{width:260px;height: 42px;border:none;outline: none;}
+.right .pwd{width:300px;height: 42px;border:0;border:1px #cdcdcd solid;float: right;}
+.right .password{width:260px;height: 42px;border:0;outline: none;}
+.right span{font-size: 16px;color: #000;float: left;height: 42px;line-height: 42px;}
+.li3{font-size: 14px;line-height: 42px;}
+.li3 .wangji{float: right;}
+.li3 .wangji:hover{text-decoration: underline;}
+.login-btn{width: 300px;height: 40px;background: #FF0000;text-align: center;line-height: 40px;color: #fff;font-size: 14px;display: block;margin-left: 52px;}
+.p3{height: 40px;line-height: 40px;text-align: center;font-size: 14px;color: #000;}
+.p4{height: 40px;line-height: 40px;text-align: center;font-size: 12px;}
+.p3 a{padding:0 10px;border-right:1px #cdcdcd solid;}
+.p3 .li0{border-right:0;}
+.tip-mes{width: 300px;height: 40px;font-size: 14px;color: #FF0000;text-align: center;line-height: 40px;}

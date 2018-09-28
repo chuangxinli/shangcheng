@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <!-- 启用360浏览器的极速模式(webkit) -->
+        <meta name="renderer" content="webkit">
+        <!-- 避免IE使用兼容模式 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!--把这两段加到页头部位，如果需要html5页面兼容ie8浏览器，换需要引入几个兼容包-->
+		<title>衣联首页</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_1mvik7n8tj7cik9/iconfont.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2017-4-5
+        	描述：sitenav
+       -->
+		<div id="main" class="woman">
+			<div id="sitenav">
+				<div class="area">
+					<div class="login-info" id="js_login_info">
+						<div class="say-hi">
+							Hi&nbsp;,&nbsp;欢迎来到衣联
+						</div>
+						<div class="login-link-wrap">
+							
+							<span><a href="javascript:;" rel="nofollow" target="_blank" class="login1"></a></span>
+							<span class="span-line">丨</span>
+							<a href="javascript:;" rel="nofollow" target="_blank" class="register1"></a>
+						</div>
+					</div>
+					<ul class="ely-sn-menuwrap">
+						<li class="item menu q-myeelly">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank">我的衣联<span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<a href="javascript:;" target="_blank" class="self-shezhi">个人设置</a>
+							</div>
+						</li>
+						<!--
+                        	作者：offline
+                        	时间：2017-4-18
+                        	描述：导航栏的购物车部分
+                        -->
+						<li class="item menu ely-sn-cart">
+							<a class="menu-hd" href="goodscart.html" rel="nofollow" target="_blank"><i class="sn-i-cart"></i><span>进货车</span id="min_cart_num"><span style="color: #ff0000;font-weight: 900;" id="goodsnum">&nbsp;0</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd" id="my_goods_empty">
+								<p class="empty-tips">您的进货车还没有货品，赶紧选购吧！</p>
+							</div>
+						</li>
+						<li class="item menu q-favorite">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-favorite"></i><span>收藏夹</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<ul class="ul-list">
+									<li>
+										<a class="zuijin" rel="nofollow" href="javascript:;" target="_blank">最近收藏</a>
+									</li>
+									<li>
+										<a class="zuijin1" rel="nofollow" href="javascript:;" target="_blank">历史收藏</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="item menu q-site">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-site"></i><span>网站导航</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<dl class="dl-list">
+									<dd>
+										<a class="biaoti" href="nvzhuang.html">女装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=连衣裙" target="_blank">连衣裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=时尚套装" target="_blank">时尚套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士牛仔裤" target="_blank">牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=半身裙" target="_blank">半身裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士休闲裤" target="_blank">休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士毛衣" target="_blank">毛织衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="nanzhuang.html">男装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士T恤" target="_blank">男士T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士休闲裤" target="_blank">男士休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士牛仔裤" target="_blank">男士牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士夹克" target="_blank">男士夹克</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士衬衫" target="_blank">男士衬衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="tongzhuang.html">童装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童T恤" target="_blank">儿童T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童套装" target="_blank">儿童套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童裙装" target="_blank">女童裙装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童装裤子" target="_blank">童装裤子</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="neiyi.html">内衣</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=文胸" target="_blank">文胸</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=内裤" target="_blank">内裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=袜子" target="_blank">袜子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=睡裙" target="_blank">睡衣</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="yishi.html">衣饰</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=眼镜" target="_blank">眼镜</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帽子" target="_blank">帽子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=腰带" target="_blank">腰带</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=耳饰" target="_blank">耳饰</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手链" target="_blank">手链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=项链" target="_blank">项链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=领带" target="_blank">领带</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xielei.html">鞋类</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=运动鞋" target="_blank">运动鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=休闲鞋" target="_blank">休闲鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=皮鞋" target="_blank">皮鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=凉鞋" target="_blank">凉鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单鞋" target="_blank">单鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=拖鞋" target="_blank">拖鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=板鞋" target="_blank">板鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帆布鞋" target="_blank">帆布鞋</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xiangbao.html">箱包</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单肩包" target="_blank">单肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=双肩包" target="_blank">双肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=钱包" target="_blank">钱包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手提包" target="_blank">手提包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手拿包" target="_blank">手拿包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=旅行箱" target="_blank">旅行箱</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=斜挎包" target="_blank">斜挎包</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+					<div class="index-link">
+						<a class="clr-red" href="index.html" title="衣联首页" target="_blank">衣联首页</a>
+					</div>
+				</div>
+			</div>
+			<!--
+            	作者：offline
+            	时间：2016-12-14
+            	描述：logo
+            -->
+            <div id="ely-hd" class="ely-hd">
+            	<div class="area clearfix">
+            		<div class="logo">
+            			<a class="logo-link" href="index.html" title="衣联网">
+            				<img src="images/logo-link.png" alt="衣联网">
+            			</a>
+            		</div>
+            		<div class="app-link-wrap">
+            			<a href="javascript:;" target="_blank">
+            				<!--<img alt="" src="images/app_link_wrap.png">-->
+            			</a>
+            		</div>
+            		<div class="search">
+            			<div class="search-in">
+            				<input type="text" class="search-text" id="s_keyword" value=""/>
+            				<ul class="datalist"></ul>
+            			</div>
+            			<div class="search-btn">
+            				<a class="submit-btn" name="search-btn" href="javascript:;">搜索</a>
+            			</div>
+            			<ul class="search-hots">
+            				<li><a href="goodslist.html?shopid=010" rel="nofollow" target="_blank">2017秋冬新款</a></li>
+            				<li><a href="goodslist.html?shopid=011" rel="nofollow" target="_blank">打底裤</a></li>
+            				<li><a href="goodslist.html?shopid=012" rel="nofollow" target="_blank">秋冬毛衣</a></li>
+            				<li><a href="goodslist.html?shopid=013" rel="nofollow" target="_blank">中长款连衣裙</a></li>
+            				<li><a href="goodslist.html?shopid=014" rel="nofollow" target="_blank">时尚套装</a></li>
+            				<li><a href="goodslist.html?shopid=015" rel="nofollow" target="_blank">女童外套</a></li>
+            			</ul>
+            		</div>
+            	</div>
+            </div>
+            <!--
+            	作者：offline
+            	时间：2016-12-14
+            	描述：main-nav-wrap
+            -->
+            <div class="main-nav-wrap" id="nav">
+            	<div class="menu-title">
+            		<span class="smap-link">全部商品类目</span>
+            		<div class="leimu">
+	        			<dl class="dl-list">
+							<dd>
+								<a class="biaoti" href="nvzhuang.html">女装</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=连衣裙" target="_blank">连衣裙</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=时尚套装" target="_blank">时尚套装</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士牛仔裤" target="_blank">牛仔裤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=半身裙" target="_blank">半身裙</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士休闲裤" target="_blank">休闲裤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士毛衣" target="_blank">毛织衫</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="nanzhuang.html">男装</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士T恤" target="_blank">男士T恤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士休闲裤" target="_blank">男士休闲裤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士牛仔裤" target="_blank">男士牛仔裤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士夹克" target="_blank">男士夹克</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士衬衫" target="_blank">男士衬衫</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="tongzhuang.html">童装</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童T恤" target="_blank">儿童T恤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童套装" target="_blank">儿童套装</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童裙装" target="_blank">女童裙装</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童装裤子" target="_blank">童装裤子</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="neiyi.html">内衣</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=文胸" target="_blank">文胸</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=内裤" target="_blank">内裤</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=袜子" target="_blank">袜子</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=睡裙" target="_blank">睡衣</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="yishi.html">衣饰</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=眼镜" target="_blank">眼镜</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帽子" target="_blank">帽子</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=腰带" target="_blank">腰带</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=耳饰" target="_blank">耳饰</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手链" target="_blank">手链</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=项链" target="_blank">项链</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=领带" target="_blank">领带</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="xielei.html">鞋类</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=运动鞋" target="_blank">运动鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=休闲鞋" target="_blank">休闲鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=皮鞋" target="_blank">皮鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=凉鞋" target="_blank">凉鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单鞋" target="_blank">单鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=拖鞋" target="_blank">拖鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=板鞋" target="_blank">板鞋</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帆布鞋" target="_blank">帆布鞋</a></li>
+								</ul>
+							</dd>
+							<dd>
+								<a class="biaoti" href="xiangbao.html">箱包</a>
+								<ul>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单肩包" target="_blank">单肩包</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=双肩包" target="_blank">双肩包</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=钱包" target="_blank">钱包</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手提包" target="_blank">手提包</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手拿包" target="_blank">手拿包</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=旅行箱" target="_blank">旅行箱</a></li>
+									<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=斜挎包" target="_blank">斜挎包</a></li>
+								</ul>
+							</dd>
+						</dl>
+	        		</div>
+            	</div>
+            	<ul class="nav-fenlei">
+            		<li><a class="link" target="_blank" href="nanzhuang.html">男装</a></li>
+            		<li><a class="link" target="_blank" href="nvzhuang.html">女装</a></li>
+            		<li><a class="link" target="_blank" href="tongzhuang.html">童装</a></li>
+            		<li><a class="link" target="_blank" href="neiyi.html">内衣</a></li>
+            		<li><a class="link" target="_blank" href="xielei.html">鞋子</a></li>
+            		<li><a class="link" target="_blank" href="xiangbao.html">箱包</a></li>
+            		<li><a class="link" target="_blank" href="neiyi.html">衣饰</a></li>
+            		<!--<li><a class="link" target="_blank" href="javascript:;">一件代发</a></li>
+            		<li><a class="link" target="_blank" href="javascript:;">游论坛</a></li>
+            		<li><a class="link" target="_blank" href="javascript:;">品牌馆</a></li>
+            		<li><a class="link" target="_blank" href="javascript:;">产品服务</a></li>
+            		<li><a class="link" target="_blank" href="javascript:;">衣联厂+</a></li>-->
+            	</ul>
+            </div>
+            <div class="main-content">
+            	<div class="choice-classify clearfix">
+            		<div class="box-shadow left">
+            			<ul class="cc-level">
+            				<li class="bg-1">
+            					<a title="热门类目" target="_blank" href="javascript:;"><span class="limimg"></span>热门类目</a>
+            					<div class="cc-level-right1">
+            						<ul class="type">
+            							<li class="li1">
+            								<div class="title">
+            									<p class="type-t">
+            										<a title="女装" target="_blank" href="nvzhuang.html">女装</a>
+            									</p>
+            								</div>
+            								<ul class="type-b clearfix">
+    											<li><a title="连衣裙" target="_blank" href="sitedaohang.html?leibie=连衣裙">连衣裙</a></li>
+    											<li><a title="T恤" target="_blank" href="sitedaohang.html?leibie=女士T恤">T恤</a></li>
+    											<li><a title="半身裙" target="_blank" href="sitedaohang.html?leibie=半身裙">半身裙</a></li>
+    											<li><a title="夏季新款" target="_blank" href="sitedaohang.html?leibie=夏季新款">夏季新款</a></li>
+    										</ul>
+            							</li>
+            							<li  class="li1">
+            								<div class="title">
+            									<p class="type-t">
+            										<a title="男装" target="_blank" href="nanzhuang.html">男装</a>
+            									</p>
+            								</div>
+            								<ul class="type-b clearfix">
+    											<li><a title="T恤" target="_blank" href="sitedaohang.html?leibie=男士T恤">T恤</a></li>
+    											<li><a title="夹克" target="_blank" href="sitedaohang.html?leibie=男士夹克">夹克</a></li>
+    											<li><a title="牛仔裤" target="_blank" href="sitedaohang.html?leibie=男士牛仔裤">牛仔裤</a></li>
+    											<li><a title="针织衫" target="_blank" href="sitedaohang.html?leibie=男士针织衫">针织衫</a></li>
+    											<li><a title="休闲裤" target="_blank" href="sitedaohang.html?leibie=男士休闲裤">休闲裤</a></li>
+    										</ul>
+            							</li>
+            							<li class="li1">
+            								<div class="title">
+            									<p class="type-t">
+            										<a title="童装" target="_blank" href="tongzhuang.html">童装</a>
+            									</p>
+            								</div>
+            								<ul class="type-b clearfix">
+    											<li><a title="童T恤" target="_blank" href="sitedaohang.html?leibie=童T恤">童T恤</a></li>
+    											<li><a title="童卫衣" target="_blank" href="sitedaohang.html?leibie=童卫衣">童卫衣</a></li>
+    											<li><a title="童套装" target="_blank" href="sitedaohang.html?leibie=童套装">童套装</a></li>
+    										</ul>
+            							</li>
+            							<li>
+            								<div class="title">
+            									<p class="type-t">
+            										<a title="箱包" target="_blank" href="xiangbao.html">箱包</a>
+            									</p>
+            									<p class="type-t">
+            										<a title="衣饰" target="_blank" href="yishi.html">衣饰</a>
+            									</p>
+            									<p class="type-t">
+            										<a title="鞋子" target="_blank" href="xielei.html">鞋子</a>
+            									</p>
+            									<p class="type-t">
+            									</p>
+            								</div>
+            								<ul class="type-b clearfix">
+    											<li><a title="双肩包" target="_blank" href="sitedaohang.html?leibie=双肩包">双肩包</a></li>
+    											<li><a title="单肩包" target="_blank" href="sitedaohang.html?leibie=单肩包">单肩包</a></li>
+    											<li><a title="腰带/皮带" target="_blank" href="sitedaohang.html?leibie=皮带">腰带/皮带</a></li>
+    											<li><a title="运动鞋" target="_blank" href="sitedaohang.html?leibie=运动鞋">运动鞋</a></li>
+    										</ul>
+            							</li>
+            						</ul>
+            					</div>
+            				</li>
+        					<li class="bg-2">
+
+        						<a title="批发市场" target="_blank" href="javascript:;"><span class="limimg"></span>批发市场</a>
+        						<div class="cc-level-right2 left">
+        							<div class="categroy clearfix">
+        								<ul class="type">
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="十三行" target="_blank" href="goodslist.html?shopid=001">十三行</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="ZQ服饰" target="_blank" href="goodslist.html?shopid=002">ZQ服饰</a></li>
+        												<li><a title="精库门生" target="_blank" href="goodslist.html?shopid=003">精库门生</a></li>
+        												<li><a title="L&L" target="_blank" href="goodslist.html?shopid=004">L&L</a></li>
+        												<li><a title="飞舞时尚专业女神" target="_blank" href="goodslist.html?shopid=005">飞舞时尚专业女神</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="沙河" target="_blank" href="goodslist.html?shopid=006">沙河</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="双艺花丽" target="_blank" href="goodslist.html?shopid=007">双艺花丽</a></li>
+        												<li><a title="娇悦服饰" target="_blank" href="goodslist.html?shopid=008">娇悦服饰</a></li>
+        												<li><a title="尚尚休闲服饰" target="_blank" href="goodslist.html?shopid=009">尚尚休闲服饰</a></li>
+        												<li><a title="styleonme" target="_blank" href="goodslist.html?shopid=010">styleonme</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="four">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="流花" target="_blank" href="goodslist.html?shopid=011">流花</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="悍豹服饰" target="_blank" href="goodslist.html?shopid=012">悍豹服饰</a></li>
+        												<li><a title="MeilinShop" target="_blank" href="goodslist.html?shopid=013">MeilinShop</a></li>
+        												<li><a title="KEKE欧美风尚女装" target="_blank" href="goodslist.html?shopid=014">KEKE欧美风尚女装</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        								</ul>
+        								<ul class="type">
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="新塘" target="_blank" href="goodslist.html?shopid=015">新塘</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="善帆" target="_blank" href="goodslist.html?shopid=016">善帆</a></li>
+        												<li><a title="hichan" target="_blank" href="goodslist.html?shopid=017">hichan</a></li>
+        												<li><a title="以陌牛仔" target="_blank" href="goodslist.html?shopid=018">以陌牛仔</a></li>
+        												<li><a title="新塘牛仔工厂店" target="_blank" href="goodslist.html?shopid=019">新塘牛仔工厂店</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="深圳" target="_blank" href="goodslist.html?shopid=020">深圳</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="GRACEINLA" target="_blank" href="goodslist.html?shopid=021">GRACEINLA</a></li>
+        												<li><a title="尚来姿服饰" target="_blank" href="goodslist.html?shopid=022">赏赉姿服饰</a></li>
+        												<li><a title="格蕾斯名品批发" target="_blank" href="goodslist.html?shopid=023">格蕾斯名品批发</a></li>
+        												<li><a title="纳尼亚高端女装批发工厂店" target="_blank" href="goodslist.html?shopid=024">纳尼亚高端女装批发工厂店</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="four">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="虎门" target="_blank" href="goodslist.html?shopid=025">虎门</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="纳尼亚高端女装批发工厂店" target="_blank" href="goodslist.html?shopid=026">纳尼亚高端女装批发工厂店</a></li>
+        												<li><a title="芷润欧美大码服饰" target="_blank" href="goodslist.html?shopid=027">芷润欧美大码服饰</a></li>
+        												<li><a title="东莞市虎门丽丽新服装店" target="_blank" href="goodslist.html?shopid=028">东莞市虎门丽丽新服装店</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        								</ul>
+        								<ul class="type">
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="杭州" target="_blank" href="goodslist.html?shopid=029">杭州</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="杭州嫚西服饰有限公司" target="_blank" href="goodslist.html?shopid=030">杭州嫚西服饰有限公司</a></li>
+        												<li><a title="韵荷飘香精品女装" target="_blank" href="goodslist.html?shopid=031">韵荷飘香精品女装</a></li>
+        												<li><a title="卡伦曼服饰" target="_blank" href="goodslist.html?shopid=032">卡伦曼服饰</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="li2">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="常熟" target="_blank" href="goodslist.html?shopid=033">常熟</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="猪猪外贸工厂店" target="_blank" href="goodslist.html?shopid=034">猪猪外贸工厂店</a></li>
+        												<li><a title="上海卡蒙服饰" target="_blank" href="goodslist.html?shopid=1号店">上海卡蒙服饰</a></li>
+        												<li><a title="盛盛工厂店" target="_blank" href="goodslist.html?shopid=2号店">盛盛工厂店</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        									<li class="four">
+        										<div class="title">
+        											<p class="type-t">
+        												<a title="北京" target="_blank" href="goodslist.html?shopid=3号店">北京</a>
+        											</p>
+        											<ul class="type-b clearfix">
+        												<li><a title="手拉手HANDINHAND" target="_blank" href="goodslist.html?shopid=4号店">手拉手HANDINHAND</a></li>
+        												<li><a title="威伦蒂女装专柜" target="_blank" href="goodslist.html?shopid=5号店">威伦蒂女装专柜</a></li>
+        												<li><a title="远翔工厂店" target="_blank" href="goodslist.html?shopid=6号店">远翔工厂店</a></li>
+        											</ul>
+        										</div>
+        									</li>
+        								</ul>
+        							</div>
+        						</div>
+        					</li>
+							<li class="bg-3">
+								<p class="title">活动</p>
+								<span class="limimg"></span>
+								<ul class="clearfix">
+									<li><a title="应季爆品" target="_blank" href="goodslist.html?shopid=1号店">应季爆品</a></li>
+									<li><a title="秋夏新款" target="_blank" href="goodslist.html?shopid=2号店">秋冬百搭裙</a></li>
+									<li><a title=" 甜美热销款" target="_blank" href="goodslist.html?shopid=3号店"> 甜美热销款</a></li>
+									<li><a title=" 休闲尖货" target="_blank" href="goodslist.html?shopid=4号店">休闲尖货</a></li>
+									<li><a title="最潮日韩" target="_blank" href="goodslist.html?shopid=5号店">最潮日韩</a></li>
+								</ul>
+							</li>
+            			</ul>
+            			<div class="cc-banner">
+            				<!--轮播图-->
+            				<div class="banner" >
+								<div class="banner-btn">
+									<a href="javascript:;" class="prevBtn"><i></i></a>
+									<a href="javascript:;" class="nextBtn"><i></i></a>
+								</div>
+								<ul class="banner-img">
+									<li><a href="goodslist.html?shopid=001" target="_blank"><img src="images/banner-1.png" class="banner"></a></li>
+									<li><a href="goodslist.html?shopid=002" target="_blank"><img src="images/banner-2.jpg"></a></li>
+									<li><a href="goodslist.html?shopid=003" target="_blank"><img src="images/banner-3.png"></a></li>
+									<li><a href="goodslist.html?shopid=004" target="_blank"><img src="images/banner-4.png"></a></li>
+									<li><a href="goodslist.html?shopid=005" target="_blank"><img src="images/banner-5.png"></a></li>
+								</ul>
+								<ul class="banner-circle"></ul>
+							</div>
+							<a class="cc-tu1" href="goodslist.html?shopid=006" target="_blank"><img src="images/cc-tu1.jpg"></a>
+            				<a class="cc-tu2" href="goodslist.html?shopid=007" target="_blank"><img src="images/cc-tu2.png"></a>
+            				<a class="cc-tu3" href="goodslist.html?shopid=008" target="_blank"><img src="images/cc-tu3.png"></a>
+            				<a class="cc-tu4" href="goodslist.html?shopid=009" target="_blank"><img src="images/cc-tu4.png"></a>
+            			</div>
+            		</div>
+            		
+            		<div class="aside left">
+            			<div class="welcome-sign">
+            				<p>欢迎来到衣联网</p>
+            				<span class="wel-img"></span>
+            			</div>
+            			<ul class="aside-login">
+            				<li><a class="lil" href="login.html" target="_blank"><span class="denglu"></span>登录</a></li>
+            				<li ><a class="li0" href="register.html" target="_blank"><span class="zhuce"></span>注册</a></li>
+            				<li><a class="lir" href="javascript:;"><span class="ruzhu self-shezhi">个人信息</span></a></li>
+            			</ul>
+            			<div class="aside-intro">
+            				<div class="intro-1">
+            					<p class="p1">60%</p>
+            					<p class="p2">货源覆盖率</p>
+            				</div>
+            				<div class="intro-2">
+            					<p class="p1">2600万</p>
+            					<p class="p2">年订单笔数</p>
+            				</div>
+            			</div>
+            			<div class="aside-notice">
+            				<p>平台公告</p>
+            				<ul>
+            					<li><a href="javascript:;"><span class="dian"></span>衣联退换货规则</a></li>
+            					<li><a href="javascript:;"><span class="dian"></span>关于引导站外交易与认定细则</a></li>
+            					<li><a href="javascript:;"><span class="dian"></span>争议处理细则：退换货细则</a></li>
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+            <!--
+            	作者：offline
+            	时间：2016-12-16
+            	描述：精品区
+            -->
+            <div class="jingpin">
+            	<div class="jingpin-left">
+            		<div class="jingpin-01 jingpin-00">
+            			<div class="jingpin-01-left">
+            				<a href="goodslist.html?shopid=010">
+            					<img src="images/sfq-1.png"/>
+            					<p class="mingcheng">优质档口</p>
+            					<p class="name">第一印象精品男装</p>
+            					<p class="address">苏州常熟中国男装中心</p>
+            				</a>
+            			</div>
+            			<div class="jingpin-01-right">
+            				<ul>
+            					<li>
+            						<a href="detail.html?goodsid=2" target="_blank"><img src="images/xp-2.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=3" target="_blank"><img src="images/xp-3.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=4" target="_blank"><img src="images/xp-4.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=5" target="_blank"><img src="images/xp-5.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            				</ul>
+            			</div>
+            		</div>
+            		<div class="jingpin-01 jingpin-02">
+            			<div class="jingpin-01-left">
+            				<a href="goodslist.html?shopid=011">
+            					<img src="images/sfq-2.png"/>
+            					<p class="mingcheng">优质档口</p>
+            					<p class="name">风度服饰</p>
+            					<p class="address">广州站前路世贸服装城</p>
+            				</a>
+            			</div>
+            			<div class="jingpin-01-right">
+            				<ul>
+            					<li>
+            						<a href="detail.html?goodsid=2" target="_blank"><img src="images/xp-2.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=3" target="_blank"><img src="images/xp-3.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=4" target="_blank"><img src="images/xp-4.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=5" target="_blank"><img src="images/xp-5.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            				</ul>
+            			</div>
+            		</div>
+            		<div class="jingpin-01 jingpin-03">
+            			<div class="jingpin-01-left">
+            				<a href="goodslist.html?shopid=012">
+            					<img src="images/sfq-3.png"/>
+            					<p class="mingcheng">优质档口</p>
+            					<p class="name">哈喽酷妞</p>
+            					<p class="address">北京天河白马服装城1层</p>
+            				</a>
+            			</div>
+            			<div class="jingpin-01-right">
+            				<ul>
+            					<li>
+            						<a href="detail.html?goodsid=2" target="_blank"><img src="images/xp-2.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=3" target="_blank"><img src="images/xp-3.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=4" target="_blank"><img src="images/xp-4.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=5" target="_blank"><img src="images/xp-5.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            				</ul>
+            			</div>
+            		</div>
+            		<div class="jingpin-01 jingpin-04">
+            			<div class="jingpin-01-left">
+            				<a href="goodslist.html?shopid=013">
+            					<img src="images/sfq-4.png"/>
+            					<p class="mingcheng">优质档口</p>
+            					<p class="name">涵涵服饰</p>
+            					<p class="address">广州沙河新金马服装城3楼</p>
+            				</a>
+            			</div>
+            			<div class="jingpin-01-right">
+            				<ul>
+            					<li>
+            						<a href="detail.html?goodsid=2" target="_blank"><img src="images/xp-2.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=3" target="_blank"><img src="images/xp-3.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=4" target="_blank"><img src="images/xp-4.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=5" target="_blank"><img src="images/xp-5.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            				</ul>
+            			</div>
+            		</div>
+            		<div class="jingpin-01 jingpin-05">
+            			<div class="jingpin-01-left">
+            				<a href="goodslist.html?shopid=014">
+            					<img src="images/sfq-5.png"/>
+            					<p class="mingcheng">优质档口</p>
+            					<p class="name">姐妹坊女裤</p>
+            					<p class="address">广州国大网络批发商城4层</p>
+            				</a>
+            			</div>
+            			<div class="jingpin-01-right">
+            				<ul>
+            					<li>
+            						<a href="detail.html?goodsid=2" target="_blank"><img src="images/xp-2.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=3" target="_blank"><img src="images/xp-3.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=4" target="_blank"><img src="images/xp-4.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            					<li>
+            						<a href="detail.html?goodsid=5" target="_blank"><img src="images/xp-5.jpg"></a>
+            						<div class="goods-message">
+            							<p>打包</p>
+            							<p class="prise">￥100.00</p>
+            							<p>
+            								<em>拿货</em>￥103.00
+            							</p>
+            							<p>
+            								<em>散批</em>￥106.00
+            							</p>
+            							<p class="sell">145人感兴趣</p>
+            						</div>
+            					</li>
+            				</ul>
+            			</div>
+            		</div>
+            	</div>
+            	<div class="jingpin-right">
+            		<p class="top">走货</p>
+            		<ul>
+            			<li>
+            				<div class="tu">
+            					<a href="detail.html?goodsid=6" target="_blank"><img src="images/xp-6.jpeg"/></a>
+            				</div>
+            				<div class="xiangqing">
+            					<p class="p1">多多精品</p>
+            					<em>与李**完成了一笔3555元的交易</em>
+            					<p>12-17&nbsp;12:03</p>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="tu">
+            					<a href="detail.html?goodsid=7" target="_blank"><img src="images/xp-7.jpeg"/></a>
+            				</div>
+            				<div class="xiangqing">
+            					<p class="p1">多多精品</p>
+            					<em>与李**完成了一笔3555元的交易</em>
+            					<p>12-17&nbsp;12:03</p>
+            				</div>
+            			</li>
+            			<li>
+            				<div class="tu">
+            					<a href="detail.html?goodsid=8" target="_blank"><img src="images/xp-8.jpg"/></a>
+            				</div>
+            				<div class="xiangqing">
+            					<p class="p1">多多精品</p>
+            					<em>与李**完成了一笔3555元的交易</em>
+            					<p>12-17&nbsp;12:03</p>
+            				</div>
+            			</li>
+            		</ul>
+            	</div>
+            </div>
+          	<!--
+              	作者：1170112715@qq.com
+              	时间：2017-04-27
+              	描述：xinjia
+            -->
+            <div class="xinjia">
+            	<div>
+            		<a href="goodslist.html?shopid=015" target="_blank">
+            			<img src="images/xin-1.jpg"/>
+            		</a>
+            	</div>
+            	<div>
+            		<a href="goodslist.html?shopid=016" target="_blank">
+            			<img src="images/xin-2.jpg"/>
+            		</a>
+            	</div>
+            	<div>
+            		<a href="goodslist.html?shopid=017" target="_blank">
+            			<img src="images/xin-3.jpg"/>
+            		</a>
+            	</div>
+            	<div>
+            		<a href="goodslist.html?shopid=018" target="_blank">
+            			<img src="images/xin-4.jpg"/>
+            		</a>
+            	</div>
+            </div>
+            <!--
+            	作者：offline
+            	时间：2016-12-16
+            	描述：精选市场
+            -->
+            <div class="jingxuan">
+            	<div class="jingxuan-biaoti">
+            		<h2 class="jingxuan-h2"><span class="tubiao"></span>精选市场</h2>
+            	</div>
+            	<div class="jingxuan-show">
+            		<div class="show-1">
+            			<div class="maktxt">
+            				<p class="p1">金马网络服装批发城</p>
+            				<a class="more" target="_blank" href="javascript:;" title="查看更多爆款">查看更多爆款</a>
+            				<p class="p2">金马网络服装批发城，是一个网罗所有品类的服装批发城，主要是为做网络服装如淘宝、微商店主提供优质货源</p>
+            			</div>
+            			<ul class="makcen clearfix">
+            				<li class="show1-left">
+            					<a target="_blank" href="goodslist.html?shopid=019">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan1-01.jpeg">
+            						</div>
+            					</a>
+            				</li>
+            				<li class="show1-right">
+            					<a target="_blank" href="goodslist.html?shopid=020">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan1-02.jpg">
+            						</div>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            		<div class="show-1 show-2">
+            			<div class="maktxt">
+            				<p class="p1">金马网络服装批发城</p>
+            				<a class="more" target="_blank" href="javascript:;" title="查看更多爆款">查看更多爆款</a>
+            				<p class="p2">金马网络服装批发城，是一个网罗所有品类的服装批发城，主要是为做网络服装如淘宝、微商店主提供优质货源</p>
+            			</div>
+            			<ul class="makcen clearfix">
+            				<li class="show1-left">
+            					<a href="goodslist.html?shopid=021" target="_blank">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan2-01.jpg">
+            						</div>
+            					</a>
+            				</li>
+            				<li class="show1-right">
+            					<a target="_blank" href="goodslist.html?shopid=022">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan2-02.jpg">
+            						</div>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            		<div class="show-1 show-3">
+            			<div class="maktxt">
+            				<p class="p1">金马网络服装批发城</p>
+            				<a class="more" target="_blank" href="javascript:;" title="查看更多爆款">查看更多爆款</a>
+            				<p class="p2">金马网络服装批发城，是一个网罗所有品类的服装批发城，主要是为做网络服装如淘宝、微商店主提供优质货源</p>
+            			</div>
+            			<ul class="makcen clearfix">
+            				<li class="show1-left">
+            					<a target="_blank" href="goodslist.html?shopid=023">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan3-01.png">
+            						</div>
+            					</a>
+            				</li>
+            				<li class="show1-right">
+            					<a target="_blank" href="goodslist.html?shopid=024">
+            						<div class="makcen-top">
+            							<h3 class="goods-name">兰薇米拉</h3>
+            							<p class="pirs">均价￥51.84 / 7416人收藏</p>
+            							<p class="adds">广州金马网络3层C034B</p>
+            						</div>
+            						<div class="makcen-bot">
+            							<img class="" title="兰薇米拉" src="images/jingxuan3-02.jpeg">
+            						</div>
+            					</a>
+            				</li>
+            			</ul>
+            		</div>
+            	</div>
+            </div>
+            <!--
+            	作者：offline
+            	时间：2016-12-16
+            	描述：主营韩版男装上衣
+            -->
+            <div class="hanban-img">
+            	<a href="javascript:;"><img src="images/new-style.png"></a>
+            </div>
+            <div class="zonghe-show">
+            	<div class="ertong-img">
+            		<ul>
+            			<li><a href="javascript:;">童连衣裙</a></li>
+            			<li><a href="javascript:;">女童套装</a></li>
+            			<li><a href="javascript:;">童打底裤</a></li>
+            			<li><a href="javascript:;">纯棉童服</a></li>
+            			<li><a href="javascript:;">女童短裙</a></li>
+            			<li><a href="javascript:;">潮童衬衫</a></li>
+            			<li><a href="javascript:;">宽松孕妇裙</a></li>
+            		</ul>
+            		<a href="javascript:;"><span>查看更多</span></a>
+            		<p class="et">母婴孕同</p>
+            	</div>
+            	<ul class="ertong-show">
+            		<li class="ert-li1 ert-li0">
+            			<a href="goodslist.html?shopid=025" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/new-style1.jpg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            		<li class="ert-li1 ert-li2">
+            			<a href="goodslist.html?shopid=026" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/et-li2.jpg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            		<li class="ert-li1 ert-li3">
+            			<a href="goodslist.html?shopid=027" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/et-li3.jpg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            	</ul>
+            	<!--
+                	作者：offline
+                	时间：2016-12-16
+                	描述：综合市场
+                -->
+                <div class="ertong-img zh-img">
+                	<ul>
+            			<li><a href="javascript:;">女鞋市场</a></li>
+            			<li><a href="javascript:;">男鞋市场</a></li>
+            			<li><a href="javascript:;">女鞋新品</a></li>
+            			<li><a href="javascript:;">男士皮鞋</a></li>
+            			<li><a href="javascript:;">内衣市场</a></li>
+            			<li><a href="javascript:;">箱包市场</a></li>
+            			<li><a href="javascript:;">女士文胸</a></li>
+            			<li><a href="javascript:;">女士挎包</a></li>
+            			<li><a href="javascript:;">男士内裤</a></li>
+            			<li><a href="javascript:;">男士钱包</a></li>
+            			<li><a href="javascript:;">特色配饰</a></li>
+            		</ul>
+            		<p class="zh">综合市场</p>
+                </div>
+                <ul class="ertong-show">
+            		<li class="ert-li1 ert-li4">
+            			<a href="goodslist.html?shopid=028" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/zh-li1.jpg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            		<li class="ert-li1 ert-li5">
+            			<a href="goodslist.html?shopid=029" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/zh-li2.jpeg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            		<li class="ert-li1 ert-li6">
+            			<a href="goodslist.html?shopid=030" target="_blank">
+            				<div class="ertong1">
+            					<img src="images/zh-li3.jpg">
+            					<div class="enter">
+            						进入<br>当口
+            					</div>
+            				</div>
+            				<div class="ertong1-show">
+            					<h4>上虞市汤浦乐贝儿童装厂</h4>
+            					<p class="p1">1897人收藏</p>
+            					<p class="p2">均价 <em>￥28.66</em></p>
+            					<p class="adder">绍兴上虞汤浦镇舜源路129号</p>
+            					<ul class="ertong1-show-tanchu">
+            						<li class="li1">
+            							<a href="detail.html?goodsid=9" target="_blank"><img src="images/xp-9.jpeg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=10" target="_blank"><img src="images/xp-10.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            						<li>
+            							<a href="detail.html?goodsid=11" target="_blank"><img src="images/xp-11.jpg"></a>
+            							<span class="collect">42人收藏</span>
+            							<p class="pri">￥28.0~29.0</p>
+            						</li>
+            					</ul>
+            				</div>
+            			</a>
+            		</li>
+            	</ul>
+            </div>
+            <!--
+            	作者：offline
+            	时间：2016-12-17
+            	描述：新品推荐
+            -->
+            <div class="xinpintuijian" id="xinpintuijian">
+            	<h2><span></span>新品推荐</h2>
+            	<div class="jiazai">
+            		<i class="iconfont icon-gengxin size" style="font-size: 40px;margin-top: 60px;"></i>
+            	</div>
+            	<ul class="xinpintj" id="xinpintj">
+            		<!--<li><a href="detail.html" target="_blank">
+            			<figure class="effect">
+            				<img src="images/xinpin-01.jpeg">
+            				<div class="w"></div>
+							<div class="h"></div>
+            			</figure>
+            			<h3 class="price">￥47.0</h3>
+            			<h4 class="time">近半小时上新</h4>
+            			<h5>打包</h5>
+            			<p>2016 冬季新款韩系甜美小清新百搭气质蝴蝶结绑带兔绒毛衣 女</p>
+            		</a></li>
+            		<li><a href="detail.html" target="_blank">
+            			<img src="images/xinpin-02.jpg">
+            			<h3 class="price">￥25.0</h3>
+            			<h4 class="time">近1天上新</h4>
+            			<h5>打包</h5>
+            			<p>2016秋冬新款&nbsp;热卖童装批发&nbsp;中大童韩版</p>
+            		</a></li>
+            		<li><a href="detail.html" target="_blank">
+            			<img src="images/xinpin-03.jpg">
+            			<h3 class="price">￥66.0</h3>
+            			<h4 class="time">近2天上新</h4>
+            			<h5>打包</h5>
+            			<p>2016秋冬新款&nbsp;热卖童装批发</p>
+            		</a></li>
+            		<li><a href="detail.html" target="_blank">
+            			<img src="images/xinpin-04.jpeg">
+            			<h3 class="price">￥235.0</h3>
+            			<h4 class="time">近4天上新</h4>
+            			<h5>打包</h5>
+            			<p>2016秋冬新款&nbsp;热卖童装批发&nbsp;中大童韩版</p>
+            		</a></li>-->
+            	</ul>
+            </div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-12-17
+        	描述：最底部
+        -->
+		<div id="bottom">
+			<div class="bot">
+				<div class="bot-zhinan">
+					<dl class="bot-dl">
+						<dt>
+							<i class="xszn"></i><span>新手指南</span>
+						</dt>
+						<dd><a href="javascript:;">账户注册</a></dd>
+						<dd><a href="javascript:;">买家入门</a></dd>
+						<dd><a href="javascript:;">卖家专区</a></dd>
+						<dd><a href="javascript:;">常见问题</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="zffz"></i><span>支付方式</span>
+						</dt>
+						<dd><a href="javascript:;">付款方式</a></dd>
+						<dd><a href="javascript:;">网银支付</a></dd>
+						<dd><a href="javascript:;">银联支付</a></dd>
+						<dd><a href="javascript:;">支付宝支付</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="jybz"></i><span>交易保障</span>
+						</dt>
+						<dd><a href="javascript:;">诚信保障</a></dd>
+						<dd><a href="javascript:;">包退包换</a></dd>
+						<dd><a href="javascript:;">准时发货</a></dd>
+						<dd><a href="javascript:;">实拍认证</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="tswq"></i><span>投诉维权</span>
+						</dt>
+						<dd><a href="javascript:;">仲裁管理</a></dd>
+						<dd><a href="javascript:;">举报管理</a></dd>
+						<dd><a href="javascript:;">投诉管理</a></dd>
+						<dd><a href="javascript:;">退货退款</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="sjfw"></i><span>商家服务</span>
+						</dt>
+						<dd><a href="javascript:;">开店管理</a></dd>
+						<dd><a href="javascript:;">商家入驻</a></dd>
+						<dd><a href="javascript:;">商家认证</a></dd>
+						<dd><a href="javascript:;">商家提现</a></dd>
+					</dl>
+					<div class="phone-login">
+						<p class="title">手机登录：m.eelly.com</p>
+						<ul>
+							<li class="li-01">
+								<span class="ph-tubiao"></span>
+								<a href="javascript:;">iPhine</a>
+							</li>
+							<li class="li-02">
+								<span class="anzhuo-tubiao"></span>
+								<a href="javascript:;">Android</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="remenfenlei">
+					<p class="flei">热门分类:</p>
+					<a href="javascript:;" target="_blank">长袖T恤</a>
+					<a href="javascript:;" target="_blank">广东童装批发</a>
+					<a href="javascript:;" target="_blank">情侣装外套</a>
+					<a href="javascript:;" target="_blank">黑色连衣裙</a>
+					<a href="javascript:;" target="_blank">秋装新款连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版时尚男装</a>
+					<a href="javascript:;" target="_blank">女风衣外套</a>
+					<a href="javascript:;" target="_blank">秋装连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版修身牛仔裤</a>
+					<a href="javascript:;" target="_blank">儿童服装</a>
+					<a href="javascript:;" target="_blank">女款卫衣</a>
+					<a href="javascript:;" target="_blank">紧身裤</a>
+					<a href="javascript:;" target="_blank">打底裤长款</a>
+					<a class="li0" href="javascript:;" target="_blank">服装店铺排行</a>
+				</div>
+				<div class="remenfenlei yq-link">
+					<p class="flei">友情链接:</p>
+					<a href="javascript:;" target="_blank">QQ：4543154425</a>
+					<a href="javascript:;" target="_blank">中国建材网</a>
+					<a href="javascript:;" target="_blank">中国女装网</a>
+					<a href="javascript:;" target="_blank">名鞋库</a>
+					<a href="javascript:;" target="_blank">蘑菇街</a>
+					<a href="javascript:;" target="_blank">家具</a>
+					<a href="javascript:;" target="_blank">连锁加盟网</a>
+					<a href="javascript:;" target="_blank">发型</a>
+					<a href="javascript:;" target="_blank">爱靓丽时尚女性</a>
+					<a href="javascript:;" target="_blank">中国情报网</a>
+					<a href="javascript:;" target="_blank">播视网视频</a>
+					<a href="javascript:;" target="_blank">b2b</a>
+					<a href="javascript:;" target="_blank">慧聪网</a>
+					<a href="javascript:;" target="_blank">时尚品牌网</a>
+					<a class="li0" href="javascript:;" target="_blank">结婚网</a>
+				</div>
+				<div class="bot-about">
+					<a class="li1" href="javascript:;">关于衣联</a>
+					<a href="javascript:;">衣联动态</a>
+					<a href="javascript:;">衣联招聘</a>
+					<a href="javascript:;">入驻商家</a>
+					<a href="javascript:;">合作伙伴</a>
+					<a class="li0" href="javascript:;">联系衣联</a>
+				</div>
+				<div class="bot-copyright">
+					<span> Copyright©2003-2016 Eelly.com All Right Reserved.广州市衣联网络科技有限公司 版权所有 </span>
+					<a href="javascript:;" target="_blank">隐私申明</a>
+					<span>粤ICP备</span>
+					<a href="javascript:;" target="_blank">10209547号-2</a>
+					<span>公安备案号</span>
+					<a href="javascript:;" target="_blank">44010402000492</a>
+				</div>
+				<ul class="bot-renz bot-renz1">
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-01.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-02.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-03.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-04.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-05.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-06.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-07.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-08.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-09.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-10.png"></a></li>
+				</ul>
+				<ul class="bot-renz">
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-11.png"></a></li>
+					<li><a href="javascript:;" target="_blank"><img src="images/bot-12.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-12-17
+        	描述：悬浮框
+       -->
+		<div class="xuanfuk">
+			<div class="xuanfukuang">
+				<a class="xuanf-img" href="javascript:;"><img src="images/logo-xuanfu.png"></a>
+				<div class="search2">
+					<input type="text" class="search-text2"/>
+					<a href="javascript:;" class="search-btn2 ss">搜索</a>
+					<ul class="datalist2">
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--
+        	作者：offline
+        	时间：2016-12-17
+        	描述：回到顶部
+        -->
+        <div class="goback">TOP
+        	<div class="gb">返回顶部</div>
+        </div>
+	</body>
+	<script src="js/jquery-2.2.4.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/jquery.min.js"></script>
+</html>

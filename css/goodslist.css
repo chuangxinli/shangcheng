@@ -1,0 +1,11 @@
+.bendian{height: 40px;background-color: darkmagenta;line-height: 40px;font-size: 20px;color: #000000;font-weight: 900;}
+.bendian span{float: left;margin-left: 20px;}
+.bendian a{float: right;margin-right: 20px;font-size: 14px;}
+.goodslist{min-height:1000px;_height:1000px;width: 1200px;background: #ffffff;}
+.goodslist li{width: 280px;height: 380px;float: left;margin:20px 10px;background:#F2F2F2;position: relative;}
+.goodslist li img{height: 280px;width: 280px;}
+.goodslist li h3{float: left;font-size: 20px;color: #000;width:120px;height: 40px;margin-left: 20px;line-height: 40px;}
+.goodslist li h4{float: right;font-size: 14px;color: #968896;width: 140px;margin-top:10px;height:30px;}
+.goodslist li h5{font-size: 14px;color: #968896;height: 20px;float: left;margin-left:20px ;}
+.goodslist li p{font-size: 14px;color: #968896;width: 240px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;margin-left:20px ;}
+.yuan{position: absolute;border-radius: 100%;background-color: #2D2E36;height: 140px;width: 140px;left: 50%;top: 50%;margin-left: -70px;margin-top: -120px;line-height: 140px;text-align: center;font-size: 26px;color: #ffffff;display: none;}

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>个人资料</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/font_1mvik7n8tj7cik9/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/userinfo.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：offline
+        	时间：2017-4-5
+        	描述：sitenav
+       -->
+		<div id="main" class="woman">
+			<div id="sitenav">
+				<div class="area">
+					<div class="login-info" id="js_login_info">
+						<div class="say-hi">
+							Hi&nbsp;,&nbsp;欢迎来到衣联
+						</div>
+						<div class="login-link-wrap">
+							
+							<span><a href="javascript:;" rel="nofollow" target="_blank" class="login1"></a></span>
+							<span class="span-line">丨</span>
+							<a href="javascript:;" rel="nofollow" target="_blank" class="register1"></a>
+
+						</div>
+					</div>
+					<ul class="ely-sn-menuwrap">
+						<li class="item menu q-myeelly">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank">我的衣联<span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<a href="javascript:;" target="_blank" class="self-shezhi">个人设置</a>
+							</div>
+						</li>
+						<!--
+                        	作者：offline
+                        	时间：2017-4-18
+                        	描述：导航栏的购物车部分
+                        -->
+						<li class="item menu ely-sn-cart">
+							<a class="menu-hd" href="goodscart.html" rel="nofollow" target="_blank"><i class="sn-i-cart"></i><span>进货车</span id="min_cart_num"><span style="color: #ff0000;font-weight: 900;" id="goodsnum">&nbsp;0</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd" id="my_goods_empty">
+								<p class="empty-tips">您的进货车还没有货品，赶紧选购吧！</p>
+							</div>
+						</li>
+						<li class="item menu q-favorite">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-favorite"></i><span>收藏夹</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<ul class="ul-list">
+									<li>
+										<a class="zuijin" rel="nofollow" href="javascript:;" target="_blank">最近收藏</a>
+									</li>
+									<li>
+										<a class="zuijin1" rel="nofollow" href="javascript:;" target="_blank">历史收藏</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="item menu q-site">
+							<a class="menu-hd" href="javascript:;" rel="nofollow" target="_blank"><i class="sn-i-site"></i><span>网站导航</span><span class="icon sn-i-arrow"></span></a>
+							<div class="menu-bd">
+								<dl class="dl-list">
+									<dd>
+										<a class="biaoti" href="nvzhuang.html">女装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=连衣裙" target="_blank">连衣裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=时尚套装" target="_blank">时尚套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士牛仔裤" target="_blank">牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=半身裙" target="_blank">半身裙</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士休闲裤" target="_blank">休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=女士毛衣" target="_blank">毛织衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="nanzhuang.html">男装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士T恤" target="_blank">男士T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士休闲裤" target="_blank">男士休闲裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士牛仔裤" target="_blank">男士牛仔裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士夹克" target="_blank">男士夹克</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=男士衬衫" target="_blank">男士衬衫</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="tongzhuang.html">童装</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童T恤" target="_blank">儿童T恤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童套装" target="_blank">儿童套装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童裙装" target="_blank">女童裙装</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=童装裤子" target="_blank">童装裤子</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="neiyi.html">内衣</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=文胸" target="_blank">文胸</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=内裤" target="_blank">内裤</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=袜子" target="_blank">袜子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=睡裙" target="_blank">睡衣</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="yishi.html">衣饰</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=眼镜" target="_blank">眼镜</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帽子" target="_blank">帽子</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=腰带" target="_blank">腰带</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=耳饰" target="_blank">耳饰</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手链" target="_blank">手链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=项链" target="_blank">项链</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=领带" target="_blank">领带</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xielei.html">鞋类</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=运动鞋" target="_blank">运动鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=休闲鞋" target="_blank">休闲鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=皮鞋" target="_blank">皮鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=凉鞋" target="_blank">凉鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单鞋" target="_blank">单鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=拖鞋" target="_blank">拖鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=板鞋" target="_blank">板鞋</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=帆布鞋" target="_blank">帆布鞋</a></li>
+										</ul>
+									</dd>
+									<dd>
+										<a class="biaoti" href="xiangbao.html">箱包</a>
+										<ul>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=单肩包" target="_blank">单肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=双肩包" target="_blank">双肩包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=钱包" target="_blank">钱包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手提包" target="_blank">手提包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=手拿包" target="_blank">手拿包</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=旅行箱" target="_blank">旅行箱</a></li>
+											<li><a class="zuijin2" rel="nofollow" href="sitedaohang.html?leibie=斜挎包" target="_blank">斜挎包</a></li>
+										</ul>
+									</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+					<div class="index-link">
+						<a class="clr-red" href="index.html" title="衣联首页" target="_blank">衣联首页</a>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!--
+        	作者：1170112715@qq.com
+        	时间：2017-05-06
+        	描述：主区
+        -->
+		<div id="major">
+			<h2>个人信息修改</h2>
+			<div class="major">
+				<div class="left">
+					<a href="javascript:;" class="user-info">个人资料</a>
+					<a href="javascript:;" class="user-add">收货地址</a>
+				</div>
+				<div class="right">
+					<div class="user-info-sheet">
+						<h3>亲爱的<span class="yonghuming"></span>，请填写个人资料</h3>
+						<form>
+							<ul>
+								<li>
+									<em>用户名：</em>
+									<span class="yonghuming"></span>
+								</li>
+								<li>
+									<em>昵称:</em>
+									<input type="text" class="nicheng" /><span class="nicheng-tip"></span>
+								</li>
+								<li>
+									<em>真实姓名:</em>
+									<input type="text" class="realname" />
+									<span class="realname-tip"></span>
+								</li>
+								<li>
+									<em>所在地:</em>
+								</li>
+								<li class="li5">
+									<div class="realadd">
+            <input id="pr1" type="text" placeholder="省份" />
+            <input id="ci1" type="text" placeholder="城市" style="display: none" />
+            <input id="co1" type="text" placeholder="县级" style="display: none" />
+            <span class="realadd-tip"></span>
+            						</div>
+								</li>
+								<li>
+									<em>手机号码:</em>
+									<input type="text" class="phonenum" />
+									<span class="phonenum-tip"></span>
+								</li>
+								<li>
+									<em>QQ号码:</em>
+									<input type="text" class="qqhao" />
+									<span class="qqhao-tip"></span>
+								</li>
+								<li class="li8">
+									<a class="btn" href="javascript:;">提交</a>
+									<span class="btn-tip"></span>
+								</li>
+							</ul>
+						</form>
+					</div>
+					<div class="user-address-sheet">
+						<h3>收货地址</h3>
+						<form class="form2">
+							<ul>
+								<li>
+									<em>收货人姓名:</em>
+									<input type="text" class="name-shouhuo" />
+									<span class="name-shouhuo-tip"></span>
+								</li>
+								<li>
+									<em>所在地区:</em>
+								</li>
+								<li class="li3">
+									<div class="realadd">
+            <input id="pr2" class="pr2" type="text" placeholder="省份" />
+            <input id="ci2" class="ci2" type="text" placeholder="城市" style="display: none" />
+            <input id="co2" class="co2" type="text" placeholder="县级" style="display: none" />
+            <span class="realadd-tip"></span>
+            						</div>
+								</li>
+								<li>
+									<em>具体收货地址:</em>
+									<input type="text" class="add-juti" />
+									<span class="add-juti-tip">不需要重复写省市区</span>
+								</li>
+								<li>
+									<em>邮政编码:</em>
+									<input type="text" class="zip-code" />
+									<span class="zip-code-tip">大陆以外不可填</span>
+								</li>
+								<li>
+									<em>手机号码:</em>
+									<input type="text" class="tel-num" />
+									<span class="tel-num-tip">大陆以外不可填</span>
+								</li>
+								<li class="li8">
+									<a class="btn2" href="javascript:;">提交</a>
+									<span class="btn2-tip"></span>
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--
+        	作者：offline
+        	时间：2016-12-17
+        	描述：最底部
+        -->
+		<div id="bottom">
+			<div class="bot">
+				<div class="bot-zhinan">
+					<dl class="bot-dl">
+						<dt>
+							<i class="xszn"></i><span>新手指南</span>
+						</dt>
+						<dd><a href="javascript:;">账户注册</a></dd>
+						<dd><a href="javascript:;">买家入门</a></dd>
+						<dd><a href="javascript:;">卖家专区</a></dd>
+						<dd><a href="javascript:;">常见问题</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="zffz"></i><span>支付方式</span>
+						</dt>
+						<dd><a href="javascript:;">付款方式</a></dd>
+						<dd><a href="javascript:;">网银支付</a></dd>
+						<dd><a href="javascript:;">银联支付</a></dd>
+						<dd><a href="javascript:;">支付宝支付</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="jybz"></i><span>交易保障</span>
+						</dt>
+						<dd><a href="javascript:;">诚信保障</a></dd>
+						<dd><a href="javascript:;">包退包换</a></dd>
+						<dd><a href="javascript:;">准时发货</a></dd>
+						<dd><a href="javascript:;">实拍认证</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="tswq"></i><span>投诉维权</span>
+						</dt>
+						<dd><a href="javascript:;">仲裁管理</a></dd>
+						<dd><a href="javascript:;">举报管理</a></dd>
+						<dd><a href="javascript:;">投诉管理</a></dd>
+						<dd><a href="javascript:;">退货退款</a></dd>
+					</dl>
+					<dl class="bot-dl">
+						<dt>
+							<i class="sjfw"></i><span>商家服务</span>
+						</dt>
+						<dd><a href="javascript:;">开店管理</a></dd>
+						<dd><a href="javascript:;">商家入驻</a></dd>
+						<dd><a href="javascript:;">商家认证</a></dd>
+						<dd><a href="javascript:;">商家提现</a></dd>
+					</dl>
+					<div class="phone-login">
+						<p class="title">手机登录：m.eelly.com</p>
+						<ul>
+							<li class="li-01">
+								<span class="ph-tubiao"></span>
+								<a href="javascript:;">iPhine</a>
+							</li>
+							<li class="li-02">
+								<span class="anzhuo-tubiao"></span>
+								<a href="javascript:;">Android</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="remenfenlei">
+					<p class="flei">热门分类:</p>
+					<a href="javascript:;" target="_blank">长袖T恤</a>
+					<a href="javascript:;" target="_blank">广东童装批发</a>
+					<a href="javascript:;" target="_blank">情侣装外套</a>
+					<a href="javascript:;" target="_blank">黑色连衣裙</a>
+					<a href="javascript:;" target="_blank">秋装新款连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版时尚男装</a>
+					<a href="javascript:;" target="_blank">女风衣外套</a>
+					<a href="javascript:;" target="_blank">秋装连衣裙</a>
+					<a href="javascript:;" target="_blank">韩版修身牛仔裤</a>
+					<a href="javascript:;" target="_blank">儿童服装</a>
+					<a href="javascript:;" target="_blank">女款卫衣</a>
+					<a href="javascript:;" target="_blank">紧身裤</a>
+					<a href="javascript:;" target="_blank">打底裤长款</a>
+					<a class="li0" href="javascript:;" target="_blank">服装店铺排行</a>
+				</div>
+				<div class="remenfenlei yq-link">
+					<p class="flei">友情链接:</p>
+					<a href="javascript:;" target="_blank">QQ：4543154425</a>
+					<a href="javascript:;" target="_blank">中国建材网</a>
+					<a href="javascript:;" target="_blank">中国女装网</a>
+					<a href="javascript:;" target="_blank">名鞋库</a>
+					<a href="javascript:;" target="_blank">蘑菇街</a>
+					<a href="javascript:;" target="_blank">家具</a>
+					<a href="javascript:;" target="_blank">连锁加盟网</a>
+					<a href="javascript:;" target="_blank">发型</a>
+					<a href="javascript:;" target="_blank">爱靓丽时尚女性</a>
+					<a href="javascript:;" target="_blank">中国情报网</a>
+					<a href="javascript:;" target="_blank">播视网视频</a>
+					<a href="javascript:;" target="_blank">b2b</a>
+					<a href="javascript:;" target="_blank">慧聪网</a>
+					<a href="javascript:;" target="_blank">时尚品牌网</a>
+					<a class="li0" href="javascript:;" target="_blank">结婚网</a>
+				</div>
+				<div class="bot-about">
+					<a class="li1" href="javascript:;">关于衣联</a>
+					<a href="javascript:;">衣联动态</a>
+					<a href="javascript:;">衣联招聘</a>
+					<a href="javascript:;">入驻商家</a>
+					<a href="javascript:;">合作伙伴</a>
+					<a class="li0" href="javascript:;">联系衣联</a>
+				</div>
+				<div class="bot-copyright">
+					<span> Copyright©2003-2016 Eelly.com All Right Reserved.广州市衣联网络科技有限公司 版权所有 </span>
+					<a href="javascript:;" target="_blank">隐私申明</a>
+					<span>粤ICP备</span>
+					<a href="javascript:;" target="_blank">10209547号-2</a>
+					<span>公安备案号</span>
+					<a href="javascript:;" target="_blank">44010402000492</a>
+				</div>
+				<ul class="bot-renz bot-renz1">
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-01.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-02.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-03.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-04.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-05.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-06.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-07.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-08.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-09.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-10.png"></a>
+					</li>
+				</ul>
+				<ul class="bot-renz">
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-11.png"></a>
+					</li>
+					<li>
+						<a href="javascript:;" target="_blank"><img src="images/bot-12.png"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.2.4.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/userinfo.js"></script>
+	<script type="text/javascript">
+        new locationCard({
+		    ids: ['pr1', 'ci1', 'co1']
+		}).init();
+    </script>
+</html>
